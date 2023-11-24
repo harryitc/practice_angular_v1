@@ -5,9 +5,36 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
 	"features": {
-		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers-contrib/features/angular-cli:2": {},
 		"ghcr.io/devcontainers-contrib/features/nestjs-cli:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"EditorConfig.EditorConfig",
+				"ms-vscode.vscode-typescript-tslint-plugin",
+				"eg2.vscode-npm-script",
+				"christian-kohler.path-intellisense",
+				"angular.ng-template",
+				"johnpapa.angular2",
+				"sibiraj-s.vscode-scss-formatter",
+				"gruntfuggly.todo-tree",
+				"nrwl.angular-console",
+				"meganrogge.template-string-converter",
+				"esbenp.prettier-vscode",
+				"github.vscode-pull-request-github",
+				"eamodio.gitlens",
+				"ecmel.vscode-html-css",
+				"alexiv.vscode-angular2-files",
+				"Zignd.html-css-class-completion",
+				"ecmel.vscode-html-css",
+				"pranaygp.vscode-css-peek",
+				"ChakrounAnas.turbo-console-log",
+				"yzhang.markdown-all-in-one",
+				"shd101wyy.markdown-preview-enhanced"
+			  ]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
