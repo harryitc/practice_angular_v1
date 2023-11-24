@@ -32,7 +32,8 @@
 				"pranaygp.vscode-css-peek",
 				"ChakrounAnas.turbo-console-log",
 				"yzhang.markdown-all-in-one",
-				"shd101wyy.markdown-preview-enhanced"
+				"shd101wyy.markdown-preview-enhanced",
+				"TabNine.tabnine-vscode"
 			  ]
 		}
 	}
